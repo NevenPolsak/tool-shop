@@ -27,8 +27,8 @@ section {
   color: #444;
   padding-left: 1rem;
   border-left: 0.4rem solid black;
-  margin-top: 1rem;
-  margin-bottom: 3rem;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
 }
 
 .btn {
@@ -249,8 +249,12 @@ section {
 .category .box-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 2rem;
+
 }
+
+
+
 
 .category .box-container .box {
   position: relative;
@@ -298,6 +302,7 @@ section {
   flex-wrap: wrap;
   gap: 2rem;
 }
+
 
 .product .box-container .box {
   flex: 1 1 30rem;
@@ -531,7 +536,12 @@ section {
   html {
     font-size: 55%;
   }
+
+  .category  {
+    margin-top: 5rem;
+  }
 }
+
 
 @media (max-width: 991px) {
   .header-1,
