@@ -601,6 +601,11 @@ grid-template-columns: repeat(4,1fr);
   .home .home-slider .box .content h3 {
     font-size: 4.5rem;
   }
+
+  .footer .box-container {
+    grid-template-columns: repeat(2,1fr);
+    
+  }
 }
 
 @media (max-width: 450px) {
